@@ -1,4 +1,4 @@
-import './title.css'
+import './title.css';
 import React from "react";
 
 export const CartWidget = ({greeting}) => {
