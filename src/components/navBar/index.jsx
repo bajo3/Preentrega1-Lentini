@@ -37,7 +37,8 @@ export const NavBar = () => {
                     <form className="d-flex">
                             <button className="btn btn-outline-success" type="submit"><CartWidget/></button>
 
-                            <button className="btn btn-outline-success" type="submit"><ItemCount/></button>
+                            <button className="btn btn-outline-success" type="submit"><ItemCount /></button>
+                            
                     </form>
                 </div>
             </div>
