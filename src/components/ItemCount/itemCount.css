@@ -1,6 +1,11 @@
 .counter{
     width: fit-content;
-    background-color: crimson;
+    color: rgb(10, 0, 0);
+    background-color: rgb(246, 248, 245);
     margin: auto;
     text-align: center;
+}
+
+button{
+    margin:0px 15px;
 }

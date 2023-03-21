@@ -1,10 +1,10 @@
 import './title.css';
 import React from "react";
 
-export const CartWidget = ({greeting}) => {
+export const Title = ({greeting}) => {
     return (
         <h1>{greeting}</h1>
     );
 }
 
-export default CartWidget;
+export default Title;
