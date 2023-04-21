@@ -1,11 +1,28 @@
-.counter{
-    width: fit-content;
-    color: rgb(10, 0, 0);
-    background-color: rgb(246, 248, 245);
-    margin: auto;
-    text-align: center;
-}
-
-button{
-    margin:0px 15px;
-}
+.counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0.5rem;
+  }
+  
